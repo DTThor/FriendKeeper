@@ -28,12 +28,16 @@ If anything changes, or a user wants to reach out to his/her friends more (or le
 When it's time to reach out to a friend, FriendKeeper will send this friendly reminder based on the users input type and duration!
 
 ## Tech Stack
+### Frontend
 * HTML & CSS(Flexbox)
 * Chrome Extension (JS and JSON)
 * AngularJS
+### Backend
 * Node
 * Express
 * PostgreSQL
+### Deployment
+* Heroku
 
 ## Challenges
 FriendKeeper is the very first chrome extension I've built, so the newness of the technology brought it's own host of challenges. Beyond that, however, a main challenge that I faced was actually getting the chrome notifications to not only send, but to send at the correct time. Investigating what documentation is current/applicable for Chrome apps/extensions proved to be a challenge, especially considering the fact that Chrome apps will be deprecated soon, and that the apps and extensions documentation is very similar. I overcame this challenge by actually using a notification system that is browser agnostic, so as not to rely on Chrome's notification API.
